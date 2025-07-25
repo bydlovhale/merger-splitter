@@ -24,7 +24,7 @@ def split_pdf(file):
         out_name = f"page_{i+1}.pdf"
         writer.write(out_name)
         writer.close()
-        print(f"Created: {out_name}")
+        print(f"Create: {out_name}")
 
 if __name__ == "__main__":
     # Example usage - replace with your own PDF files
